@@ -1,0 +1,310 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+dl {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(to right, rgb(243, 243, 243), rgb(225, 224, 224), rgb(198, 197, 197));
+}
+
+.container {
+    width: 1104px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 232px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.link {
+    display: inline-block;
+    padding: 8px 4px;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.link:hover,
+.link:focus {
+    cursor: pointer;
+    transform: scale(1.05);
+    border-bottom: 1px solid white;
+}
+
+.hero {
+    position: relative;
+    padding-top: 370px;
+    text-align: center;
+    height: 649px;
+    background-image: url('/images/flat-lay-black-friday-sales-composition-with-copy-space-2.jpg');
+    background-size: cover;
+}
+
+.hero-title {
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.about {
+    padding-top: 100px;
+}
+
+.about>.container {
+    display: flex;
+    gap: 130px;
+}
+
+.about-descr-wrapper {
+    width: 574px;
+}
+
+.about-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.about-description {
+    font-size: 20px;
+}
+
+.catalogue {
+    padding-top: 100px;
+}
+
+.catalogue-title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.catalogue ul {
+    display: flex;
+    gap: 8px;
+}
+
+.catalogue li:hover {
+    box-shadow: 0px 0px 6px grey;
+    cursor: pointer;
+    /* background-color: rgb(224, 223, 223); */
+}
+
+.catalogue li {
+    padding: 12px;
+    padding-bottom: 24px;
+    border-radius: 12px;
+}
+
+.catalogue .title {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.catalogue .description {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 29px;
+}
+
+.catalogue .price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 325px;
+}
+
+article>.article-wrapper {
+    flex-grow: 1;
+    height: 540px;
+}
+
+.cataloque-link {
+    color: black;
+}
+
+.testimonials {
+    padding-top: 100px;
+}
+
+.testimonials-title {
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.testimonials-list li {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 76px;
+    border-radius: 8px;
+}
+
+.testimonials-list li:hover {
+    box-shadow: 0px 0px 6px grey;
+    cursor: pointer;
+}
+
+.testimonials-list li:last-child {
+    margin-bottom: 0;
+}
+
+.testimonials-list p {
+    font-size: 24px;
+}
+
+.testimonials-list img {
+    border-radius: 50%;
+}
+
+.address {
+    padding-top: 100px;
+    padding-bottom: 126px;
+}
+
+.address h3 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.address-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+}
+
+.address-title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+address ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+address ul p {
+    text-align: center;
+}
+
+address ul p a {
+    color: black;
+}
+
+footer {
+    height: 185px;
+    background-color: #393939;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tel {
+    display: inline-block;
+    padding: 4px;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 104px;
+}
+
+.social-media-wrapper h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.social-media-wrapper ul {
+    display: flex;
+    gap: 65px;
+}
+
+.social-media-wrapper li {
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+}
+
+.icon-link {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+}
+
+.icon {
+    fill: white;
+}
+
+.icon-link:hover {
+    background-color: white;
+}
+
+.icon-link:hover .icon {
+    fill: #393939;
+    ;
+}
